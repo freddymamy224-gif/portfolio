@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche de Projets </title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./index.html">
+    <link rel="stylesheet" href="./contact.html">
+    <link rel="stylesheet" href="./projets.html">
+    
+</head>
+<body>
+    <nav>
+         <div class="logo"> <strong>Bienvenue</strong></div>
+
+    <ul class="nav-links">
+        <li><a href="../index.html">Accueil</a></li> 
+        <li><a href="projets.html">Projets</a></li>
+        <li><a href="recherche.html" class="Active">Recherche</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<link rel="stylesheet" href="../style.css">
+
+    <main style="padding: 50px 10%;">
+        <div class="search-container">
+            <h2>Trouver un projet spécifique</h2>
+            <p>Filtrez mes réalisations par technologies (ex: PHP, IoT, CSS) </p>
+            <br>
+            <form action="#" method="GET">
+                <input type="text" class="search-bar" placeholder="Entrez un mot-clé..." required>
+                <button type="submit" class="btn-search">Rechercher</button>
+            </form>
+        </div>
+
+        <h3>Résultats récents</h3>
+        <div class="project-grid">
+            <article class="project-card">
+                <img src="../images/poubelle.jpg" alt="Aperçu du projet Poubelle Intelligente">
+                <div style="padding: 20px;">
+                    <h4 style="color: var(--petrole);">Poubelle Intelligente ESP32</h4>
+                    <p>Système automatisé avec capteur ultrasonique et servomoteur.</p>
+                    <p><strong>Tags:</strong> #IoT #C++ </p>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="../images/mysql.jpg" alt="Aperçu du site dynamique">
+                <div style="padding: 20px;">
+                    <h4 style="color: var(--petrole);">Site Enterprise Dynamique</h4>
+                    <p>Interface responsive avec gestion de base de données MySQL.</p>
+                    <p><strong>Tags:</strong> #PHP #MySQL </p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+      <footer>
+    <div class="footer-container">
+        <div class="footer-text">
+            <p>
+                &copy; 2026 - Tous droits réservés. | 
+                <a href="pages/contact.html">Me contacter par email</a>
+            </p>
+        </div>
+
+        <div class="footer-social">
+            <span>Retrouvez-moi :</span>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/freddy-nema-mamy-1b9950351" target="_blank" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/freddymamy224-gif" target="_blank" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://facebook.com/Fréddy Nema" target="_blank" title="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://instagram.com/fredd_nm" target="_blank" title="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
